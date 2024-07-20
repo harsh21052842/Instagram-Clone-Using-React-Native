@@ -15,6 +15,15 @@ An Instagram Clone App made using React Native.
 - JavaScript
 - Basic CSS
 
+This is a basic layout showing how the JSX files are written.
+
+View tags are used to display objects.
+Maps are used to manage accounts.
+TouchableOpacity is used to convert solid icons into buttons.
+React Navigation is used for navigating from one page to another.
+
+
+
 ## Usage
 ```javascript
 import { InstagramFeed } from './InstagramFeed';
