@@ -2,15 +2,6 @@
 
 An Instagram Clone App made using React Native.
 
-## Table of Contents
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 - Shows stories
 - Supports multiple accounts
@@ -28,8 +19,8 @@ An Instagram Clone App made using React Native.
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/instagram-react-native.git
-    cd instagram-react-native
+    gh repo clone harsh21052842/Instagram-Clone-Using-React-Native
+    cd Instagram-Clone-Using-React-Native
     ```
 
 2. **Install dependencies**
