@@ -2,30 +2,62 @@
 
 An Instagram Clone App made using React Native.
 
-## Features
-1. Shows stories
-2. Supports multiple accounts
-3. Displays likes and comments
-4. Includes a profile section
-5. User login with credentials
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### Prerequisites
+## Features
+- Shows stories
+- Supports multiple accounts
+- Displays likes and comments
+- Includes a profile section
+- User login with credentials
+
+## Prerequisites
 - Node.js
-- React Native
+- React Native CLI
 - JavaScript
 - Basic CSS
 
-This is a basic layout showing how the JSX files are written.
+## Installation
 
-View tags are used to display objects.
-Maps are used to manage accounts.
-TouchableOpacity is used to convert solid icons into buttons.
-React Navigation is used for navigating from one page to another.
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/instagram-react-native.git
+    cd instagram-react-native
+    ```
 
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
 
+3. **Run the app**
+    ```bash
+    npm start
+    ```
+
+    For iOS:
+    ```bash
+    npx react-native run-ios
+    ```
+
+    For Android:
+    ```bash
+    npx react-native run-android
+    ```
 
 ## Usage
+
+Here's a basic example of how to use the Instagram Feed component:
+
 ```javascript
+import React from 'react';
 import { InstagramFeed } from './InstagramFeed';
 
 const App = () => {
@@ -35,4 +67,3 @@ const App = () => {
 };
 
 export default App;
-
